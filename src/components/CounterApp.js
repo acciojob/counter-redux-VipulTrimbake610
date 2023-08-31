@@ -9,7 +9,7 @@ const CounterApp = ()=>{
     // console.log(count);
     return (
         <>
-        <p>Count : {count}</p>
+        <h1>Count : {count}</h1>
         <button onClick={()=>dispatch(increse())}>Increment</button>
         <button onClick={()=>dispatch(decrese())}>Decrement</button>
         </>
